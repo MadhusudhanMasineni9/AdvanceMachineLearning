@@ -26,6 +26,3 @@ networks) instead of relu
 Observation: Increase the loss and decrease in accuracy, we have seen some issues. tanh returned units given more confidence. This is due to "relu" 
 as an anctivation funtion that zeros-out negative values. If we not use "relu" the negative values impact the model.
 
-5. Improve the Validation
-
-Observation: By using regularization, 4 epochs are optimal because the model less accuarate but reduced loss.
